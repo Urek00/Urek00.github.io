@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(89, 89, 225);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255,255,255);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(238, 225, 225);
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    font-family: cursive;
+    background-color: #ffffff;
+    color: rgb(233,48,48);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(233,48,48);
+    color: #ffffff;
+}
+
+.tenor-gif-embed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
